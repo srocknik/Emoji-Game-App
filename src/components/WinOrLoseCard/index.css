@@ -1,0 +1,75 @@
+/* Write your code here. */
+.win-loss-container {
+  background-color: #9796f0;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.result {
+  font-family: roboto;
+  font-size: 45px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.score-text {
+  font-family: roboto;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.score {
+  font-family: roboto;
+  font-size: 35px;
+  color: #6a59ff;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.reset-btn {
+  padding: 20px;
+  font-size: 20px;
+  font-family: roboto;
+  font-weight: 600;
+  background-color: #ffce27;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.win-loss-image {
+  height: 400px;
+}
+@media (max-width: 567px) {
+  .win-loss-image {
+    height: 200px;
+  }
+  .result {
+    font-size: 20px;
+  }
+  .score-text {
+    font-size: 20px;
+  }
+  .score {
+    font-size: 25px;
+  }
+  .reset-btn {
+    padding: 10px;
+    font-size: 15px;
+    font-family: roboto;
+    font-weight: 600;
+    background-color: #ffce27;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+}

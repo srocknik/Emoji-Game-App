@@ -1,0 +1,34 @@
+/* Write your code here. */
+* {
+  font-family: roboto;
+  margin: 0px;
+}
+.bg-container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+}
+@media (max-width: 567px) {
+  .list-container {
+    width: 100%;
+  }
+}
+.list-bg-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

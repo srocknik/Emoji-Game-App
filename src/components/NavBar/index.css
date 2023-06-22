@@ -1,0 +1,26 @@
+/* Write your code here. */
+.nav-bar {
+  background-color: #9796f0;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo-image {
+  height: 25px;
+}
+.score-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-score-text {
+  font-size: 18px;
+  color: #ffffff;
+  margin-left: 20px;
+}
